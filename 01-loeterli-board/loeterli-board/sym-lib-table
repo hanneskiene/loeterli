@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name loeterli)(type Legacy)(uri /home/hannes/Documents/loeterli/00-kicad-lib/loeterli.lib)(options "")(descr ""))
+)
