@@ -7,3 +7,4 @@
 * Overcurrent Detection with shunt
 * Connector for external sleep input
 * SWD Connector
+* FUSE to earth
