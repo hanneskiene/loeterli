@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name loeterli)(type KiCad)(uri ${KIPRJMOD}/../../00-kicad-lib/loeterli.pretty)(options "")(descr ""))
+)
