@@ -96,17 +96,6 @@ F 3 "~" H 6400 1100 50  0001 C CNN
 	1    6400 1100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J8
-U 1 1 5ECBCD4A
-P 10250 2400
-F 0 "J8" H 10330 2442 50  0000 L CNN
-F 1 "Conn_01x03" H 10330 2351 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x03_P4.445mm_Drill1.5mm" H 10250 2400 50  0001 C CNN
-F 3 "~" H 10250 2400 50  0001 C CNN
-	1    10250 2400
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	10400 2300 10500 2300
 Wire Notes Line
@@ -1048,17 +1037,6 @@ Wire Wire Line
 	6400 1250 6750 1250
 Connection ~ 6400 1250
 $Comp
-L Connector:DIN-6 J4
-U 1 1 5EE68664
-P 10450 1650
-F 0 "J4" H 10450 2131 50  0000 C CNN
-F 1 "DIN-6" H 10450 2040 50  0000 C CNN
-F 2 "" H 10450 1650 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 10450 1650 50  0001 C CNN
-	1    10450 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x03 J5
 U 1 1 5EE6CFB7
 P 650 1050
@@ -1070,14 +1048,47 @@ F 3 "~" H 650 1050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Amplifier_Instrumentation:AD620 U?
+L Amplifier_Instrumentation:AD620 U6
 U 1 1 5EE96E22
 P 7900 2800
-F 0 "U?" H 8344 2846 50  0000 L CNN
+F 0 "U6" H 8344 2846 50  0000 L CNN
 F 1 "AD8223" H 8344 2755 50  0000 L CNN
 F 2 "" H 7900 2800 50  0001 C CNN
 F 3 "" H 7900 2800 50  0001 C CNN
 	1    7900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L loeterli:RPC1-12RB-6P J1
+U 1 1 5ECA846E
+P 10550 1650
+F 0 "J1" H 10550 2131 50  0000 C CNN
+F 1 "RPC1-12RB-6P" H 10550 2040 50  0000 C CNN
+F 2 "loeterli:RPC1-12RB-6P" H 10700 2000 50  0001 C CNN
+F 3 "" H 10700 2000 50  0001 C CNN
+	1    10550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 5ECBD91D
+P 1400 5950
+F 0 "D8" H 1393 6167 50  0000 C CNN
+F 1 "LED" H 1393 6076 50  0000 C CNN
+F 2 "LED_THT:LED_D4.0mm" H 1400 5950 50  0001 C CNN
+F 3 "~" H 1400 5950 50  0001 C CNN
+	1    1400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 5ECBEB59
+P 1400 6250
+F 0 "D9" H 1393 6467 50  0000 C CNN
+F 1 "LED" H 1393 6376 50  0000 C CNN
+F 2 "LED_THT:LED_D4.0mm" H 1400 6250 50  0001 C CNN
+F 3 "~" H 1400 6250 50  0001 C CNN
+	1    1400 6250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

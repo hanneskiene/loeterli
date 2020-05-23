@@ -1,2 +1,5 @@
 # loeterli
-Soldering Iron Controller - It is Very Good
+![](loeterli-board.png)
+
+## Specs
+* 12-24VAC In
