@@ -1,5 +1,9 @@
 # loeterli
 ![](loeterli-board.png)
 
-## Specs
-* 12-24VAC In
+## TODO
+* Zero Cross Detection
+* Termocouple Instrumentation Amp
+* Overcurrent Detection with shunt
+* Connector for external sleep input
+* SWD Connector
