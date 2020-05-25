@@ -8,7 +8,7 @@
 
 ## TODO
 * Zero Cross Detection
-* Termocouple Instrumentation Amp
+* Termocouple Instrumentation Amp Layout
 * Overcurrent Detection with shunt
 * Connector for external sleep input
 * SWD Connector
