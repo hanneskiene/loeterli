@@ -1,4 +1,6 @@
-# loeterli
+
+![](loeterli-logo.png)
+
 ![](loeterli-board.png)
 
 ## Parts needed
