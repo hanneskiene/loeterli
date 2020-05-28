@@ -9,7 +9,7 @@
 ## TODO
 * Handle holder in pcb?
 * Zero Cross Detection
-* Termocouple Instrumentation Amp
+* Termocouple Instrumentation Amp Layout
 * Overcurrent Detection with shunt
 * Connector for external sleep input + sleep in middle stand
 * SWD Connector

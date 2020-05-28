@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name loeterli)(type Legacy)(uri ${KIPRJMOD}/../../00-kicad-lib/loeterli.lib)(options "")(descr ""))
+  (lib (name loeterli-board-rescue)(type Legacy)(uri ${KIPRJMOD}/loeterli-board-rescue.lib)(options "")(descr ""))
 )
