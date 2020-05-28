@@ -7,9 +7,10 @@
 * Transformer 12-24V 50-120VA
 
 ## TODO
+* Handle holder in pcb?
 * Zero Cross Detection
 * Termocouple Instrumentation Amp
 * Overcurrent Detection with shunt
-* Connector for external sleep input
+* Connector for external sleep input + sleep in middle stand
 * SWD Connector
 * FUSE to earth
