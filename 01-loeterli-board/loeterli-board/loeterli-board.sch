@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:loeterli-board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -969,17 +969,6 @@ F 3 "" H 4650 3300 50  0001 C CNN
 	1    4650 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L MCU_ST_STM32F1:STM32F103C8Tx U2
-U 1 1 5ECEDED5
-P 4650 4950
-F 0 "U2" H 4600 3361 50  0000 C CNN
-F 1 "STM32F103C8Tx" H 4600 3270 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 4050 3550 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 4650 4950 50  0001 C CNN
-	1    4650 4950
-	1    0    0    -1  
-$EndComp
 Connection ~ 9050 3050
 Wire Wire Line
 	9250 3050 9050 3050
@@ -1571,4 +1560,72 @@ Wire Wire Line
 	10100 5950 10000 5950
 Wire Wire Line
 	10100 6150 10000 6150
+Text GLabel 5400 6150 2    50   BiDi ~ 0
+SWCLK
+Wire Wire Line
+	5250 6050 5400 6050
+Text GLabel 5400 6050 2    50   BiDi ~ 0
+SWDIO
+Wire Wire Line
+	5400 6150 5250 6150
+Wire Wire Line
+	5950 7350 6050 7350
+Wire Wire Line
+	5950 7400 5950 7350
+Wire Wire Line
+	5950 7050 5950 7000
+Wire Wire Line
+	6050 7050 5950 7050
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5ED869B1
+P 5950 7000
+F 0 "#PWR01" H 5950 6850 50  0001 C CNN
+F 1 "+3.3V" H 5965 7173 50  0000 C CNN
+F 2 "" H 5950 7000 50  0001 C CNN
+F 3 "" H 5950 7000 50  0001 C CNN
+	1    5950 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5ED84EDE
+P 5950 7400
+F 0 "#PWR02" H 5950 7150 50  0001 C CNN
+F 1 "GND" H 5955 7227 50  0000 C CNN
+F 2 "" H 5950 7400 50  0001 C CNN
+F 3 "" H 5950 7400 50  0001 C CNN
+	1    5950 7400
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 7250 0    50   BiDi ~ 0
+SWCLK
+Wire Wire Line
+	5950 7250 6050 7250
+Text GLabel 5950 7150 0    50   BiDi ~ 0
+SWDIO
+Wire Wire Line
+	6050 7150 5950 7150
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5ED1936A
+P 6250 7150
+F 0 "J4" H 6330 7142 50  0000 L CNN
+F 1 "Conn_01x04" H 6330 7051 50  0000 L CNN
+F 2 "" H 6250 7150 50  0001 C CNN
+F 3 "~" H 6250 7150 50  0001 C CNN
+	1    6250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_ST_STM32F1:STM32F103C8Tx U2
+U 1 1 5ECEDED5
+P 4650 4950
+F 0 "U2" H 4600 3361 50  0000 C CNN
+F 1 "STM32F103C8Tx" H 4600 3270 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 4050 3550 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 4650 4950 50  0001 C CNN
+	1    4650 4950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
