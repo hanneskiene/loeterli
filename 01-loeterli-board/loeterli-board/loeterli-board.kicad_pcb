@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.4+dfsg1-1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.2)
 
   (general
     (thickness 1.6)
@@ -1899,7 +1899,7 @@
   )
 
   (module loeterli:handpiece-holder (layer F.Cu) (tedit 5ECFEF5A) (tstamp 5ED05AB3)
-    (at 230 61)
+    (at 227.5 59.5)
     (path /5ED0450A)
     (fp_text reference J2 (at 2 3.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4760,9 +4760,13 @@
     )
   )
 
-  (gr_line (start 230 72) (end 225 72) (layer Edge.Cuts) (width 0.05) (tstamp 5ED0693B))
-  (gr_arc (start 225 77) (end 225 72) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5ED05FC1))
-  (gr_arc (start 230 61) (end 230 72) (angle -180) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 227.5 69) (end 225 69) (layer Edge.Cuts) (width 0.05) (tstamp 5ED3E290))
+  (gr_arc (start 227.5 59.5) (end 227.5 69) (angle -180) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 225 74) (end 225 69) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5ED3DF7F))
+  (gr_arc (start 215 105) (end 215 110) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5EC87305))
+  (gr_arc (start 125 55) (end 125 50) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5EC87305))
+  (gr_arc (start 125 105) (end 120 105) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5EC87305))
+  (gr_line (start 220 74) (end 220 105) (layer Edge.Cuts) (width 0.05) (tstamp 5ED3D0A9))
   (gr_text UP (at 170.499999 107) (layer F.SilkS) (tstamp 5EC9F966)
     (effects (font (size 2 2) (thickness 0.3)))
   )
@@ -4779,11 +4783,7 @@
     (effects (font (size 2 2) (thickness 0.3)))
   )
   (gr_line (start 170 46) (end 170 157) (layer Eco1.User) (width 0.15))
-  (gr_arc (start 215 105) (end 215 110) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5EC87305))
-  (gr_arc (start 125 105) (end 120 105) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5EC87305))
-  (gr_arc (start 125 55) (end 125 50) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5EC87305))
-  (gr_line (start 230 50) (end 125 50) (layer Edge.Cuts) (width 0.05) (tstamp 5EC86795))
-  (gr_line (start 220 105) (end 220 77) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 227.5 50) (end 125 50) (layer Edge.Cuts) (width 0.05) (tstamp 5EC86795))
   (gr_line (start 125 110) (end 215 110) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 120 55) (end 120 105) (layer Edge.Cuts) (width 0.05))
 
